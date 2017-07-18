@@ -1,0 +1,30 @@
+{
+  "name": "raspumplocal",
+  "version": "0.0.1",
+  "description": "Raspump local server",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "src/index.js"
+  },
+  "author": "Kizer",
+  "license": "ISC",
+  "dependencies": {
+    "nconf": "^0.8.4",
+    "raspump-remote": "git://github.com/xkizer/raspump-remote-server.git",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3",
+    "tslib": "^1.7.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.1",
+    "@types/chai-as-promised": "0.0.31",
+    "@types/mocha": "^2.2.41",
+    "@types/nconf": "0.0.34",
+    "@types/socket.io": "^1.4.29",
+    "@types/socket.io-client": "^1.4.29",
+    "chai": "^4.1.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^3.4.2"
+  }
+}
