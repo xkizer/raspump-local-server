@@ -1,5 +1,7 @@
 {
   "remotePort": 39000,
-  "remoteHost": "178.62.107.6",
-  "localPort": 32000
+  "remoteHost": "localhost",
+  "localPort": 32000,
+  "username": "local",
+  "password": "localtest"
 }
